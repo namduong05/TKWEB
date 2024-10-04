@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url(plan-page.jpg);
+    background-size: cover;
+}
+
+section {
+    width: 1180px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+    width: 300px;
+    background-color: #262626;
+    color: #a1a1a1;
+    border: 5px solid #424242;
+    margin: 70px 20px 0;
+    padding: 0 8px 12px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+p.price {
+    color: #27dcc4;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+button {
+    background-color: #27dcc4;
+    padding: 12px 24px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: #acacac;
+}
+
+@media only screen and (max-width: 768px) {
+    article {
+        width: 100%;
+    }
+}
